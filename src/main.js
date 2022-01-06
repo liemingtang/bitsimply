@@ -23,6 +23,21 @@ import VueCalendly from 'vue-calendly';
 import VueAnalytics from 'vue-analytics';
 
 
+
+import Amplify from 'aws-amplify';
+import aws_exports from './aws-exports';
+import {
+  applyPolyfills,
+  defineCustomElements,
+} from '@aws-amplify/ui-components/loader';
+
+Amplify.configure(aws_exports);
+applyPolyfills().then(() => {
+  defineCustomElements(window);
+});
+
+
+
 Vue.use(VueScrollTo, {
   duration: 500,
   easing: "ease"
