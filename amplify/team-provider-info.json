@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bitsimply-dev-175734-authRole",
+      "UnauthRoleArn": "arn:aws:iam::643208909240:role/amplify-bitsimply-dev-175734-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::643208909240:role/amplify-bitsimply-dev-175734-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bitsimply-dev-175734-deployment",
+      "UnauthRoleName": "amplify-bitsimply-dev-175734-unauthRole",
+      "StackName": "amplify-bitsimply-dev-175734",
+      "StackId": "arn:aws:cloudformation:us-east-1:643208909240:stack/amplify-bitsimply-dev-175734/14f901d0-6ed7-11ec-abf6-0a042eb860ed",
+      "AmplifyAppId": "d1y63b9tub06ud"
+    }
+  }
+}
