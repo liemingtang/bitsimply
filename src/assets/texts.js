@@ -11,9 +11,10 @@ const Texts = {
     // headline section 
     "banner": {
       "uid": "Home",
-      "title": "Need help with Bitcoin?",
+      "title": "I need to ... Crypto, Defi, NFT and DAO?",
       "subtitle":
-        "We specialise in assisting individuals, SME, family offices and SMSF with information, training and technical support to buy and hold cryptocurrency assets from start to finish.",
+        // "We specialise in assisting individuals, SME, family offices and SMSF with information, training and technical support to buy and hold cryptocurrency assets from start to finish.",
+        "We help early stage startups, companies, individuals who want to invest or launch products and services in Crypto, Defi, NFT and DAOs.  Our expertise covers product design, tokenomics, technical architecture and implementation, security, tax, liability, legal and regulatory considerations by region.  Whether you are an early stage startup, an established business or an investment firm, we are here to help.",
     },
 
     // Services section 
@@ -22,30 +23,45 @@ const Texts = {
       "title": "How We help?",
 
       "subtitle":
-        "We focus on knowledge, training and technical support with handling Bitcoin and other cryptocurrency assets. ",
+        "We privide on consultation, training and technology advice on Crypto, Defi, NFTs and DAOs. ",
 
       "disclaimer":
-        "Note: we do not provide financial advice such as what to invest in or what exchanges to use.  We advice our clients to consult finance and tax professionals for finance and tax related advise and services.",
+        "Note: Our services are educational and technical and not financial.  Consult finance and tax professionals for personalised finance and tax related services.",
 
       "types": {
+        "Web3": {
+          "title": "Defi / Web3 / Blockchain",
+          "subtitle": "We advise defi and blockchain projects on challenges such as choosing a tech stack and blockchains. We also provide general education and background on the space.",
+          "icon": "uil uil-bill",
+        },
+        "NFTs": {
+          "title": "NFTs",
+          "subtitle": "We help review your NFT launch strategy, tokenomics and product design.  We also help connect our clients with a network of companies and service providers where needed. ",
+          "icon": "uil uil-bill",
+        },
+        "DAOs": {
+          "title": "DAOs",
+          "subtitle": "DAO structures are an emerging mode of community collaboration and communication.  We help assess DAO structures, tokenomics (if any) and governance structure.",
+          "icon": "uil uil-bill",
+        },
         "intro": {
-          "title": "How Bitcoin Works?",
-          "subtitle": "We provide general education on what Bitcoin and cryptocurrencies are, how they work, their history, current state of the industry and emerging trends.",
+          "title": "How Crypto, NFTs and DAOs Works?",
+          "subtitle": "We provide general education on what crypto, nfts and DAOs are, how they work, their history, current state of the industry and emerging trends.",
           "icon": "uil uil-bitcoin-circle",
         },
         "buying": {
           "title": "How to Buy & Store?",
-          "subtitle": "We explain the ways one can obtain bitcoin and cryptocurrencies.  A large part of our work focuses on how you should hold and safeguard your crypto assets from theft and loss (inc inheritance planning, passwords).",
+          "subtitle": "We explain the ways one can obtain Bitcoin, crypto, nfts and participate in DAOs.  How you should hold and safeguard your crypto assets from theft and loss (e.g., estate planning).",
           "icon": "uil uil-gold",
         },
         "holding": {
-          "title": "Bitcoin in your Business?",
-          "subtitle": "We consult on ways you can include Bitcoin as part of your business including how to accept cryptocurrency as payment, payroll or hold as coprorate treasury.",
+          "title": "Crypto / Web3 in your Business?",
+          "subtitle": "We consult on ways you can include Crypto as part of your business including how to accept cryptocurrency as payment, payroll or hold as coprorate treasury.",
           "icon": "uil uil-transaction",
         },
         "tax": {
           "title": "Taxation and Law",
-          "subtitle": "We provide general education on taxation, legal and geopolitical implications of owning bitcoins.  See tax and finance professionals for individual advice.",
+          "subtitle": "We provide general education on taxation, legal and geopolitical implications when offering products and services in this space.  See tax and finance professionals for individual advice.",
           "icon": "uil uil-bill",
         },
         "training": {
@@ -66,23 +82,24 @@ const Texts = {
     "whowehelp": {
       "uid": "Clients",
       "title": "People we help",
-      "subtitle": "We specialise in small to medium cap funds and private investors.",
+      "subtitle": "We specialise in early stage startups, SME and investors.",
       "types": {
         "private": {
-          "title": "Private Investors",
-          "subtitle": "Private individuals and sophisticated investors who are interested in understanding bitcoin and cryptocurrencies.",
-          "icon": "uil uil-incoming-call",
-        },
-        "smsf": {
-          "title": "SMSF / Family Offices",
-          "subtitle": "Self managed super funds, family offices who are interested in this space and require technical support.",
+          "title": "Startups",
+          "subtitle": "Early stage startups who needs advise and support for launching and / or grow their products and services.",
           "icon": "uil uil-incoming-call",
         },
         "sme": {
           "title": "SME",
-          "subtitle": "Companies interested in accepting cryptocurrencies as payment, including crypto assets in treasuries and require technical and consulting services.",
+          "subtitle": "Companies interested in adding Crypto, NFT and DAO related products and services.",
           "icon": "uil uil-incoming-call",
-        }
+        },
+        "smsf": {
+          "title": "Investors / SMSF / Family Offices",
+          "subtitle": "Self managed super funds, family offices who are interested in this space and require technical support.",
+          "icon": "uil uil-incoming-call",
+        },
+
       }
     },
 
